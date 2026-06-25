@@ -1,0 +1,84 @@
+{
+  "_resourceType": "script",
+  "id": "6f592d81-3002-4e50-a475-c130eff1a60f",
+  "name": "RND Pos 2",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Variable B",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_RNG_SEED",
+      "args": {
+        "__collapse": true,
+        "__label": "SEED"
+      },
+      "id": "fda52222-864d-4f08-bfaa-69a50438f194"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "V0",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 7,
+        "maxValue": 9,
+        "clamp": false,
+        "__collapse": true,
+        "__label": "RND X POS"
+      },
+      "id": "04020344-4596-4354-a40d-088834537527"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "V1",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 12,
+        "maxValue": 14,
+        "clamp": false,
+        "__collapse": true,
+        "__label": "RND Y POS"
+      },
+      "id": "61be6113-f49e-48be-8078-fda844540086"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "variable",
+          "value": "V0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V1"
+        },
+        "__collapse": true,
+        "__label": "ACTOR POS SET"
+      },
+      "id": "a18634d7-3d08-4584-a76d-42c6ba0cd533"
+    }
+  ]
+}

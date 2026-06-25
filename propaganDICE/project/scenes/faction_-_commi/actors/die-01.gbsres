@@ -1,0 +1,52 @@
+{
+  "_resourceType": "actor",
+  "id": "1132d5e1-66d6-43d9-90be-a028115cf737",
+  "name": "Die-01",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e7047d99-a595-41a3-91c1-12f44564f628",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_3",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "39e488ef-360b-4be9-972d-9a358261dce0",
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "id": "86613471-0e41-43d0-ac67-aaf06078cd4e"
+    },
+    {
+      "command": "EVENT_PEEK_DATA",
+      "args": {
+        "variableDest": "L0",
+        "variableSource": "23",
+        "saveSlot": 0,
+        "__collapse": false
+      },
+      "id": "55ceda84-4203-4eb8-9e90-f366481f9c3f"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 5,
+  "y": 4,
+  "_index": 1
+}

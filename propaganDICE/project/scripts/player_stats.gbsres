@@ -1,0 +1,78 @@
+{
+  "_resourceType": "script",
+  "id": "d25a7384-0747-4864-8ed2-ca3a5f9c086b",
+  "name": "player_stats",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "EVENT_RNG_SEED",
+      "args": {
+        "__collapse": true
+      },
+      "id": "11568398-15ab-431f-b0fb-93f31a78154f"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "13",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 1,
+        "maxValue": 6,
+        "clamp": false,
+        "__collapse": false
+      },
+      "id": "a26d9f60-a276-43fa-b961-0a5b8e8d358a"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "14",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 1,
+        "maxValue": 6,
+        "clamp": false,
+        "__collapse": false
+      },
+      "id": "023f3457-21df-4be2-9873-c5fb6a2100b2"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "16",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 2,
+        "maxValue": 7,
+        "clamp": false,
+        "__collapse": false
+      },
+      "id": "97969da2-4783-48e8-8dc5-fd42033ce5b0"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "15",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 2,
+        "maxValue": 7,
+        "clamp": false,
+        "__collapse": false
+      },
+      "id": "cf05884c-8e52-441d-adc8-48b6e771f8f3"
+    }
+  ]
+}
