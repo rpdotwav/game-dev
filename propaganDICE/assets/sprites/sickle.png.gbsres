@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "818b4192-0ef3-4cf0-aa60-2a7644a4d4b1",
+  "name": "sickle",
+  "symbol": "sprite_blank_copy_3_",
+  "states": [
+    {
+      "id": "9222d39e-abd1-43b7-ac2a-d956ceab38f0",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "427c9843-3d30-4688-a937-df24e62a7a14",
+          "frames": [
+            {
+              "id": "bfb95b92-d35c-40e6-94b4-e1abb323caec",
+              "tiles": [
+                {
+                  "id": "2fe0ded4-aa51-4f60-83da-65faeb274e8d",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "82036106-4720-4b89-af06-cfb8146e1a18",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7763f6d2-f1c8-4873-b42d-19c174b03844",
+          "frames": [
+            {
+              "id": "13e836bb-a1e4-42c7-a5df-4166839eeb68",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7c8c4420-51b7-4727-8121-41f99b36fb8a",
+          "frames": [
+            {
+              "id": "2338e1af-6486-4e8d-b58c-166c35565937",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2328d95e-69cb-4c1a-ba58-ac1fcf6aeaaa",
+          "frames": [
+            {
+              "id": "43a2bcee-bf7f-46d3-88cc-d19d01c99af4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4037a379-6551-4860-8ab5-c0a3c48e9d2c",
+          "frames": [
+            {
+              "id": "a24d379d-0214-4a4e-9cbb-e1f7142c9cc5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "41964c23-b994-488b-a495-9f6eff02184e",
+          "frames": [
+            {
+              "id": "92bc1271-e6d5-48cc-9135-b761d254f816",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a8b184c7-6159-4be8-962a-c24645b31d67",
+          "frames": [
+            {
+              "id": "08e0fec9-aecb-4acb-82cd-4d0262143928",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "92f32688-6ac2-47fd-917c-c0999f3fe57b",
+          "frames": [
+            {
+              "id": "bc18e287-aa4e-4510-a97e-360c9b593495",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": -8,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "sickle.png",
+  "width": 160,
+  "height": 144,
+  "checksum": "2cf05af21f0fb44f5bbd3e8e2e2fd423b442d274"
+}

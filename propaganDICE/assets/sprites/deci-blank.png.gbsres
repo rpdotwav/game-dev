@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "97bd3b81-df72-4418-8235-98986a738742",
+  "name": "deci-blank",
+  "symbol": "sprite_deci_blank",
+  "states": [
+    {
+      "id": "8ecc6037-2a3e-4fb1-994f-0f3e10de3a25",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "b9e84c2d-e0ce-44aa-8957-29efc5a85763",
+          "frames": [
+            {
+              "id": "a8da5fb4-a59a-45ec-9bc8-8255e1d559c0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "812a235f-4a9c-47fe-a05a-79f022108de1",
+          "frames": [
+            {
+              "id": "6aca4d37-241d-404d-aba7-3cfe760a6a3b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "80306b05-6423-4548-ac20-5dadd7efaf91",
+          "frames": [
+            {
+              "id": "dc9b8f78-2f6d-4983-8744-e2fdf2359235",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "66175da9-ab83-45ad-b077-2eabd8104966",
+          "frames": [
+            {
+              "id": "a7aa9705-ed18-4b3d-87e7-020deb2d8cda",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "97d0982b-88f4-4ab8-aa19-fa29406efe65",
+          "frames": [
+            {
+              "id": "6031be9f-779b-43b2-a3b8-f5508585ed2a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7a0dfbfe-4d33-4d7f-9722-1f75e3f50f58",
+          "frames": [
+            {
+              "id": "4791e2ee-414a-41fc-a852-84d98351c527",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b9551b5e-9cae-4293-849a-6e59134b033f",
+          "frames": [
+            {
+              "id": "5bde25bd-c903-4e07-b140-fa3c25335bb6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8d36aad6-91c6-4ca3-a0f9-bb04f1a45164",
+          "frames": [
+            {
+              "id": "5dfa4576-3354-434a-ba8f-615955a94a24",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": -8,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "deci-blank.png",
+  "width": 64,
+  "height": 64,
+  "checksum": "4d4c1480a6fb1590b283a52e77550df76bcd6980"
+}

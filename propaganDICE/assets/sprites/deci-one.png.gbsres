@@ -1,0 +1,116 @@
+{
+  "_resourceType": "sprite",
+  "id": "b82b9398-086d-4ecd-935d-a59d18ff3923",
+  "name": "deci-one",
+  "symbol": "sprite_decimals",
+  "states": [
+    {
+      "id": "0b2854ed-fb51-40ce-a5d9-01ae9803587f",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "9aae76eb-02b6-415d-b0a8-ac17a58f7dbf",
+          "frames": [
+            {
+              "id": "c0586dc2-b879-484f-99f6-58a82427d971",
+              "tiles": [
+                {
+                  "id": "71ad71c3-3a52-4684-acc9-89ae98b179de",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6ad73b54-cdb0-498c-ae63-87b559aa3f46",
+          "frames": [
+            {
+              "id": "c052723a-78a6-4a8d-a917-0300f052354e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a23828c4-6d68-4445-9080-45b775374dbc",
+          "frames": [
+            {
+              "id": "fcfdbe6f-7534-45b1-8b67-011eecf8350c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6a116c54-5b99-47c2-a6ad-313276421164",
+          "frames": [
+            {
+              "id": "d86c4d2c-f611-4451-8221-2bb3816ad801",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8e4a6cb9-7626-4e0e-8507-b542e70b0d4a",
+          "frames": [
+            {
+              "id": "3074154d-fc5c-4869-ac04-c520b78c5fe4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dc413405-bbb4-4c1a-b9fc-3440e5268ce7",
+          "frames": [
+            {
+              "id": "b736ca32-8b22-421a-b267-ca2e27b9a422",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e9ebe6f5-1d60-47af-b31e-a2b8159cf80f",
+          "frames": [
+            {
+              "id": "94a6052f-cd4d-49f4-988c-b3567893971a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "84be09cf-04bc-4791-bbc1-889f1845a73a",
+          "frames": [
+            {
+              "id": "13af27e9-e0dc-4955-aece-f25f9af1fc42",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": -8,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "deci-one.png",
+  "width": 64,
+  "height": 64,
+  "checksum": "4bdb23ef0c29a21119440444b8c0109516409d78"
+}

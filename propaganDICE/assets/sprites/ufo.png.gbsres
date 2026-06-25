@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "59cc13e6-a089-42a9-9cfa-c565403d1d85",
+  "name": "ufo",
+  "symbol": "sprite_blank_copy_7_",
+  "states": [
+    {
+      "id": "f77a70c6-0be6-4438-beae-6318d563d834",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "6b39458c-4a62-4751-bef9-4d095ba7d5f7",
+          "frames": [
+            {
+              "id": "1c69f4db-4044-4826-9c8b-7861cd29bc36",
+              "tiles": [
+                {
+                  "id": "82c8fdc7-76bf-4158-9eb5-89e7c5d0ad8a",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 64,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "0a47f4d3-805d-4409-9c22-0b7bfb045ce3",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 64,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d5dd70f0-a35f-40cd-bed8-d62ade2ec957",
+          "frames": [
+            {
+              "id": "9e23a69a-566e-457e-afab-bd7542a1604d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0a0e5fd0-1230-47c7-a3b5-84ba20022002",
+          "frames": [
+            {
+              "id": "3ac02ad2-1412-468b-9a6f-ef5b7b7a8ba3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d66d7a97-80ae-4d38-8045-9de531c1ad76",
+          "frames": [
+            {
+              "id": "eac579a9-eb72-43e2-84bc-3d75374708f5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b4f8cb00-80c6-474f-bf68-6a5fd423348c",
+          "frames": [
+            {
+              "id": "ab808f5e-a4fb-413d-afdb-4d3c6230adbe",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e6100d7b-4e2a-47a6-9df5-e6bf50a35669",
+          "frames": [
+            {
+              "id": "cd97d8eb-db3d-4901-b0db-7f7d9f3d9dc3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b3beb63e-3f22-4e5e-b01b-d556096e34ec",
+          "frames": [
+            {
+              "id": "6c12170c-a2da-4d73-aa28-ba3f529b34a1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0f00999e-422f-4119-a7d2-9129872dd021",
+          "frames": [
+            {
+              "id": "aabef1aa-fede-4c21-b8d7-18f91aaf6a42",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": -8,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "ufo.png",
+  "width": 160,
+  "height": 144,
+  "checksum": "d2c04a00eec2fe21eb652e64f75917266d23b8d8"
+}

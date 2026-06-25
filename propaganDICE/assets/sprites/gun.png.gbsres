@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "6bc682e5-bb66-4d76-9253-02f57fe7b8e0",
+  "name": "gun",
+  "symbol": "sprite_blank_copy_5_",
+  "states": [
+    {
+      "id": "ba2b11d7-28e6-4cd2-a9d1-849baa574707",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "8c72c73d-8c12-4a3e-b4b2-8744086fe452",
+          "frames": [
+            {
+              "id": "88afb032-115f-41f8-ac79-54cbeab06a7b",
+              "tiles": [
+                {
+                  "id": "6d4f127c-4669-4665-a912-fc17eee4c700",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 48,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "4dd0d787-2822-4d90-ac66-da903b70bbc2",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 48,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8f646fac-dee6-41d2-bb89-2a40e36f50d0",
+          "frames": [
+            {
+              "id": "69be6a59-a96e-4651-9327-f625e58f3990",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b7b84da6-b621-42f1-a193-730d76024e4f",
+          "frames": [
+            {
+              "id": "9f323d7b-cea8-4fc8-a180-6ce0cfee8322",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "eba9ea15-388c-408b-9358-248517e3e11e",
+          "frames": [
+            {
+              "id": "eb1f6564-3fab-4e24-ace9-d22f00194181",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a2c9f37d-89a3-4166-a7c9-c0a5d4485ee4",
+          "frames": [
+            {
+              "id": "931891d6-6ea6-4b54-ad75-eeb13698bea1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "520e7654-500c-48c8-ba4e-4c947c644baa",
+          "frames": [
+            {
+              "id": "bb3f2a6a-4424-4f0b-8a32-c97f2a5c8e93",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "223dca07-f38a-4434-8179-81113216f666",
+          "frames": [
+            {
+              "id": "39161555-81c7-435c-8c88-b1ad603c0c59",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6570ccd1-c63b-403d-a2d5-ed950bad4cc8",
+          "frames": [
+            {
+              "id": "32fe967f-c0d9-48e2-b56a-ff84ba632e99",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": -8,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "gun.png",
+  "width": 160,
+  "height": 144,
+  "checksum": "6a78b886fa6f7f9f53c0516e5d676722004b7ac1"
+}

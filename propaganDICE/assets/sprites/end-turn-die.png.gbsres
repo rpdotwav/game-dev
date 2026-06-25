@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "81e2c069-fec2-4727-aa38-81a002aec6fb",
+  "name": "end-turn-die",
+  "symbol": "sprite_end_turn_die",
+  "states": [
+    {
+      "id": "f484dd89-69fa-428d-a47f-78647b88124b",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "fde6f197-e648-47c6-8fe3-65f4d9eff6b9",
+          "frames": [
+            {
+              "id": "13991af7-b7f3-4db6-af82-58f2cdcc6669",
+              "tiles": [
+                {
+                  "id": "b38254bb-d393-4ce5-9000-72a6045e1547",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "060c889b-85be-4740-ba10-15cd36561c6c",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2d0975ef-c29c-4434-89c5-ba96bd50b406",
+          "frames": [
+            {
+              "id": "7a2f3fcc-9f22-46db-93dd-7bb120e39ba1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c3e00fd4-1cd4-470b-b6aa-369bb81e4783",
+          "frames": [
+            {
+              "id": "595dc242-e876-49eb-a4b2-ecce37a37ea1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ba5d9390-222a-43bf-895c-76f31fffabc8",
+          "frames": [
+            {
+              "id": "d814551c-1dc2-4f2f-90ce-8de2c4a8869c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6e2491f6-af7a-4493-b0cc-148d9f7816ff",
+          "frames": [
+            {
+              "id": "f99ec878-b91b-4e79-80fc-6f0107d1a36e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "abce7092-b3d5-4d4a-864c-33c7ed8cb2bd",
+          "frames": [
+            {
+              "id": "7f3470ba-33ce-44d2-9146-e677538339d4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "48e4aef6-5ef1-4869-950f-94a05785d475",
+          "frames": [
+            {
+              "id": "c1fc7e96-02f5-4c23-864e-99470a9292b0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5dc3e452-7b56-4c59-9d3f-f48fadc2f7a5",
+          "frames": [
+            {
+              "id": "c93111a6-f4fa-4145-be7f-c9fbf842bf2a",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": -8,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "end-turn-die.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "0f49051f087b7640f1f4f179db78a253c367b26a"
+}

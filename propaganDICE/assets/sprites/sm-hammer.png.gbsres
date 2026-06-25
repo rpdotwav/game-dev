@@ -1,0 +1,116 @@
+{
+  "_resourceType": "sprite",
+  "id": "8cf06e51-b1cf-4ce6-82bc-621f72c99fd2",
+  "name": "sm-hammer",
+  "symbol": "sprite_sm_hammer",
+  "states": [
+    {
+      "id": "b8c0f5f4-42d6-40ed-9230-2331ebafa594",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "ab463121-6a18-4992-a05b-b6bc72e140b0",
+          "frames": [
+            {
+              "id": "dfef8b55-ed6b-4168-b80a-ecdd2d97d46b",
+              "tiles": [
+                {
+                  "id": "7b6dd555-dfa3-4c3b-873e-491ec5df32ca",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 15,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a79a56fc-0434-440a-9a6b-becc08722b27",
+          "frames": [
+            {
+              "id": "6405c4d6-300b-453d-9e02-d46ffd8189d7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "48ee9add-0c8d-41a9-873c-ae65481ec72a",
+          "frames": [
+            {
+              "id": "1d2c9349-4ce2-40b3-9b3e-a3acce3f6af7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "161778da-63b6-4587-aaeb-59d6abb5aa92",
+          "frames": [
+            {
+              "id": "604fa1fe-6997-4f18-a280-8ed46f857dc6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8356faa4-25a5-4940-aed1-732ba2021591",
+          "frames": [
+            {
+              "id": "7c62fa39-8889-4063-8c57-f3656512cd1e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5dd1b424-6c54-4533-9367-769481d78299",
+          "frames": [
+            {
+              "id": "58ff1e43-809a-41f5-9057-728e9b5d8c16",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e0d3dd19-19dc-47aa-8a93-96dd902819bc",
+          "frames": [
+            {
+              "id": "a9a8a44c-3e5c-435c-871e-e81df01ded1c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7e62fed2-acd7-40f1-8b55-dafd0b689b3d",
+          "frames": [
+            {
+              "id": "9fa01c53-98c0-40f2-99e5-b856e71d8919",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": -8,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "sm-hammer.png",
+  "width": 160,
+  "height": 144,
+  "checksum": "a7159614d0c5af181233503f40978cb111681806"
+}
