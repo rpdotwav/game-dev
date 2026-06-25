@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "6eda0c90-50f2-4385-a20a-79d5e1b82800",
+  "name": "12x16-retro-rpg-topdown-npc-samples",
+  "symbol": "sprite_12x16_retro_rpg_topd",
+  "states": [
+    {
+      "id": "b724a455-fd2a-41df-92d9-6bc9058da478",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "00a6dd20-40fc-480f-bace-06517274fca4",
+          "frames": [
+            {
+              "id": "e26799db-c868-4c5e-bfe2-8fab590d4de4",
+              "tiles": [
+                {
+                  "id": "031a1e9e-ad56-4b14-9923-d8da149b2c69",
+                  "x": -12,
+                  "y": 16,
+                  "sliceX": 128,
+                  "sliceY": 32,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "afda0200-f53b-4f8f-8f99-7debb6421fe8",
+                  "x": -4,
+                  "y": 16,
+                  "sliceX": 136,
+                  "sliceY": 32,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "989b5930-e39e-4378-87b1-ed9b5e86e828",
+          "frames": [
+            {
+              "id": "d6cef44d-95dc-4225-aece-1af83d7ecc2c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f44e9cee-0d75-45a3-a614-5420dc6d48ff",
+          "frames": [
+            {
+              "id": "1c7abf41-03a6-4b4a-874b-0b41c73258b0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c6020d32-3f12-4eed-b82d-ad470d25f0f3",
+          "frames": [
+            {
+              "id": "8b94f1ed-4d50-4d9c-803b-567cffd5cbfb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5bbf2719-33b0-45d4-b2f6-a43e0e1c1448",
+          "frames": [
+            {
+              "id": "82054bac-1db9-4469-816b-93f1a0c4faa9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9d2082c8-e450-4872-8c3e-0ba977582487",
+          "frames": [
+            {
+              "id": "de91360e-7414-497a-baf0-de885c8038ec",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8e088a72-660d-47c6-a592-b2fcf228298b",
+          "frames": [
+            {
+              "id": "42781e35-7b3f-4533-a6e3-c9ad11ce5ea2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "69a9f6f6-8cb6-41a9-a3d5-b6022e695ad8",
+          "frames": [
+            {
+              "id": "20f6ab17-ddc3-4cc1-9b31-0c1d62c15317",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "12x16-retro-rpg-topdown-npc-samples.png",
+  "width": 456,
+  "height": 592,
+  "checksum": "3da82d459e0e84d0f2e5b66c5cbda1227d55227d"
+}
