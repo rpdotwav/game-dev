@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "3d81b6ff-9374-4c05-88cb-33cb9518fa44",
+  "name": "table-commie",
+  "symbol": "bg_table_commie",
+  "tileColors": "",
+  "filename": "table-commie.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

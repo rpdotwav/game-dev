@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "929dbbd6-ec5f-4fdf-8dff-4ff1790907fb",
+  "name": "table-001",
+  "symbol": "bg_table_001",
+  "tileColors": "",
+  "filename": "table-001.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

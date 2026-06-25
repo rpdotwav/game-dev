@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b5264737-6854-4910-b870-b5a0d0456c0f",
+  "name": "table-capitalist",
+  "symbol": "bg_table_capitalist",
+  "tileColors": "",
+  "filename": "table-capitalist.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

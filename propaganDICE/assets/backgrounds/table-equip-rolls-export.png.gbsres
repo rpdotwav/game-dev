@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "427d1c91-37e5-4c08-82cc-965b6a952877",
+  "name": "table-equip-rolls-export",
+  "symbol": "bg_table_equip_rolls_export",
+  "tileColors": "",
+  "filename": "table-equip-rolls-export.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
