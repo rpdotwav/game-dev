@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "112b4558-b84e-431b-83c5-d32209466fb8",
+  "name": "dice -gun",
+  "symbol": "sprite_gun",
+  "states": [
+    {
+      "id": "b5b95f6e-688d-48ad-8277-b04d1786642f",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "4e219f0f-beb5-461c-8f6b-0308380e76c3",
+          "frames": [
+            {
+              "id": "cefc2c53-4465-43c4-9fc3-550189a4da30",
+              "tiles": [
+                {
+                  "id": "10696c93-8be1-417e-9c88-737a5fc57e05",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 48,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "eb79e33d-7525-470f-8a70-77129f7f06f3",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 48,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fe8b4ce7-1bcb-4856-b902-158a8e85e311",
+          "frames": [
+            {
+              "id": "3af4e4d1-33e8-4ae4-8062-75c13ee8b1c0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "233ff3c4-aa51-4404-bcd7-578616b3ccac",
+          "frames": [
+            {
+              "id": "9e6b33b0-6ac3-4c6a-9658-494fd5ca2e9f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bdfd4a15-da21-4570-be8b-4ccb2a425f09",
+          "frames": [
+            {
+              "id": "19c5cc13-45fc-4474-99b6-cff6fb210013",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2ca78fe8-9de1-4b47-b17a-13ea487ff9a3",
+          "frames": [
+            {
+              "id": "8feb08b7-31bc-4f1e-a27f-5d9d6a2e6895",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "91280354-337e-4eef-94d0-537522bcc478",
+          "frames": [
+            {
+              "id": "b6c127cc-1dc4-4e32-bac6-26eaf69013b5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0245dca1-1d6f-41b1-9e5e-6dea782cb850",
+          "frames": [
+            {
+              "id": "06ef86d5-1ccd-4533-bb21-1a6acd41da80",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cd0502b9-2478-4e77-adc1-327814082e2d",
+          "frames": [
+            {
+              "id": "2b53adae-c817-4bcb-83e2-3c880bf4bd7e",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "dice -gun.png",
+  "width": 160,
+  "height": 144,
+  "checksum": "6a78b886fa6f7f9f53c0516e5d676722004b7ac1"
+}

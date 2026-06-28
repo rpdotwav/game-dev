@@ -1,0 +1,72 @@
+{
+  "_resourceType": "script",
+  "id": "0c2ce467-5120-42ce-91c2-c34b031e059f",
+  "name": "RND - 2 value gen",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Variable B",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_RNG_SEED",
+      "args": {},
+      "id": "762b64fa-9991-4bde-b8b5-9d638393795d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V1",
+        "value": {
+          "type": "rnd",
+          "value": {
+            "type": "variable",
+            "value": "V1"
+          }
+        },
+        "__collapse": true
+      },
+      "id": "e67228b6-6da8-4393-bcdc-a5b6174d9ae1"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "V0",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 1,
+        "maxValue": 20,
+        "clamp": false,
+        "__collapse": true
+      },
+      "id": "bce1a139-3ec5-4033-8c30-ad824fa4257d"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "V1",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 1,
+        "maxValue": 18,
+        "clamp": false,
+        "__collapse": true
+      },
+      "id": "d1fc42a7-b1c8-4e63-b312-f85dca7fdb46"
+    }
+  ]
+}

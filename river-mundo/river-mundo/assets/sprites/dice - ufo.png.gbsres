@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "84e8b574-d988-4447-9cfe-b3c01ae62ffb",
+  "name": "dice - ufo",
+  "symbol": "sprite_ufo",
+  "states": [
+    {
+      "id": "f8f94180-2f36-4e4c-b8d5-676afb234d53",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "c0689dd7-d862-4ef4-90c5-0e0f2cea00bd",
+          "frames": [
+            {
+              "id": "c68658c6-3b70-462b-8c2d-ed783da43c53",
+              "tiles": [
+                {
+                  "id": "acc43f67-63e6-405f-8a52-93ece56c3c2e",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 64,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "814c90c9-d7e6-43be-8b1d-49bebebce446",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 64,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "0a763b88-8b10-4d94-863a-77cd7effe684",
+          "frames": [
+            {
+              "id": "fb85280f-bd31-4103-9c84-94c8304c8430",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e927bdca-0a73-41f2-b446-7065797534c1",
+          "frames": [
+            {
+              "id": "a20ee2ec-3c03-40b1-9dc0-4615c6110435",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "473d0966-2a99-439d-8600-cb304d9eb7f4",
+          "frames": [
+            {
+              "id": "2c891396-c9c4-4fab-a05f-34aa287a9e60",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6fec5854-59d3-4f13-8848-fd5ec8671501",
+          "frames": [
+            {
+              "id": "ed6f746b-2a38-4658-8b60-df0ab8b55b89",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e008f86e-35ed-48e9-9dd2-9d379662e2c6",
+          "frames": [
+            {
+              "id": "3527c047-bf81-40e0-93fb-095c91a757b0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3c2f3ca7-8796-4244-a5c8-69e2a8599901",
+          "frames": [
+            {
+              "id": "9aced937-ebf7-4792-8bbd-b51bbacb90a3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1ce2606c-974e-4ae6-9b8e-f2d36317e603",
+          "frames": [
+            {
+              "id": "710804be-56d1-49b1-993f-68dccc784e78",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "dice - ufo.png",
+  "width": 160,
+  "height": 144,
+  "checksum": "d2c04a00eec2fe21eb652e64f75917266d23b8d8"
+}

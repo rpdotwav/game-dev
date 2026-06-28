@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "00f4af09-e780-4212-8f09-0552c4a3f589",
+  "name": "12x16-retro-rpg-topdown-npc-parts",
+  "symbol": "sprite_12x16_retro_rpg_topd",
+  "states": [
+    {
+      "id": "57199802-871c-4aec-a9c8-8c26f205d8c6",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "3482b1bb-f4f2-44d8-abcf-d9b06bab3259",
+          "frames": [
+            {
+              "id": "145e561f-fd6c-4a9b-9aee-e22b91552a11",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6605a8ed-61ad-45fd-8be9-3ec3f550c4f0",
+          "frames": [
+            {
+              "id": "d516e529-6f2a-4585-b199-1a1635691081",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "704203e2-632e-49be-93f7-2fb2b2e0d464",
+          "frames": [
+            {
+              "id": "3f4b0ac1-831f-4f84-ba51-5e9bded8cafa",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a031eb0f-3a07-42b7-a748-b8d059c74931",
+          "frames": [
+            {
+              "id": "f207f1c1-81ac-42d4-9962-56b397f62339",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4c8758f7-9727-4e99-adc9-ee4e2ef4b421",
+          "frames": [
+            {
+              "id": "da0a3d84-01ff-4638-823b-3595d796a094",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "87557023-e21f-42fc-865c-1af6e7e65bac",
+          "frames": [
+            {
+              "id": "02a1451e-9cc1-4a31-95c1-1fc47273dbed",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4eb93589-aa82-4dab-b994-21ff6b681bea",
+          "frames": [
+            {
+              "id": "ab3489fd-196f-4b43-bdb1-0be07b425343",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6e931163-2cbf-4a50-944c-01427b0e2c46",
+          "frames": [
+            {
+              "id": "0beefefe-3cfe-4181-bf8e-fa3b35cf456d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "12x16-retro-rpg-topdown-npc-parts.png",
+  "width": 456,
+  "height": 288,
+  "checksum": "85bf0bb5a8ba259e3f75067c3b47e68c86712bd8"
+}

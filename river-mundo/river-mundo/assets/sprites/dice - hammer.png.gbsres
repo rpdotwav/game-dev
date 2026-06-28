@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "e5c6ff78-9146-4388-8685-3e348d58131f",
+  "name": "dice - hammer",
+  "symbol": "sprite_hammer",
+  "states": [
+    {
+      "id": "2fa9f135-4bd1-435a-bbae-efe6b41ca582",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "79f719b4-258c-48ba-bb26-9b901955349c",
+          "frames": [
+            {
+              "id": "461b5c23-d08f-4e52-a0b3-362e15c85186",
+              "tiles": [
+                {
+                  "id": "8b24f1c4-2ced-4c96-b713-a3ec84b111fb",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "3f2bf899-cc31-4e1a-8b0a-809ec47fdacc",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1a5f038e-cde0-461e-b364-5970a5d74697",
+          "frames": [
+            {
+              "id": "08642c7b-9622-46ba-a0d0-314d12e2b8d9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1b5bddc3-b07d-4ddf-ab83-a2f36da477ab",
+          "frames": [
+            {
+              "id": "4ff6a998-4687-4a15-b089-9014a57da342",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "62b6692b-d867-465d-b643-ad6cb6a71f11",
+          "frames": [
+            {
+              "id": "b6102cbf-91d9-4150-a211-61269befb7cd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e48d61c9-2472-478b-8507-04ce5bb6062b",
+          "frames": [
+            {
+              "id": "e5cc224f-d8fb-4034-b188-558b91407e98",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6b825fe3-a358-4a36-bf90-b0dc22ba7ab5",
+          "frames": [
+            {
+              "id": "2508bb1a-51d0-4f5d-877c-333bd44a2a8e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1dd04a66-a6d0-44f2-8e1f-c41d34bd4c81",
+          "frames": [
+            {
+              "id": "762dca0f-e8ad-4736-a56a-c6e1500edd66",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1081401b-1280-4bce-867a-51c017845a43",
+          "frames": [
+            {
+              "id": "f37252c3-a499-4414-b768-e57ead0a55c5",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "dice - hammer.png",
+  "width": 160,
+  "height": 144,
+  "checksum": "1fe765356d8e5fc49605068fecd64d72487b4d41"
+}

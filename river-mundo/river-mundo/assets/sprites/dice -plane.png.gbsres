@@ -1,26 +1,26 @@
 {
   "_resourceType": "sprite",
-  "id": "6eda0c90-50f2-4385-a20a-79d5e1b82800",
-  "name": "12x16-retro-rpg-topdown-npc-samples",
-  "symbol": "spritex16_retro_rpg_topd_0",
+  "id": "e004baf4-96ea-4ad0-9dab-87034a74381d",
+  "name": "dice -plane",
+  "symbol": "sprite_plane",
   "states": [
     {
-      "id": "b724a455-fd2a-41df-92d9-6bc9058da478",
+      "id": "2c852888-bb34-498d-a152-91bfb7aae15f",
       "name": "",
-      "animationType": "multi_movement",
+      "animationType": "fixed",
       "flipLeft": true,
       "animations": [
         {
-          "id": "00a6dd20-40fc-480f-bace-06517274fca4",
+          "id": "2cc79a47-269f-4d77-994a-065361e20941",
           "frames": [
             {
-              "id": "e26799db-c868-4c5e-bfe2-8fab590d4de4",
+              "id": "2ef8d213-5aa0-4677-bf47-1f04e7ca351d",
               "tiles": [
                 {
-                  "id": "031a1e9e-ad56-4b14-9923-d8da149b2c69",
-                  "x": -12,
-                  "y": 16,
-                  "sliceX": 128,
+                  "id": "89591407-ae35-429c-89e3-5d613e5eb5ee",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
                   "sliceY": 32,
                   "palette": 0,
                   "flipX": false,
@@ -30,10 +30,10 @@
                   "priority": false
                 },
                 {
-                  "id": "afda0200-f53b-4f8f-8f99-7debb6421fe8",
-                  "x": -4,
-                  "y": 16,
-                  "sliceX": 136,
+                  "id": "54d8a625-c884-48f4-9431-cc2beaa1b586",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
                   "sliceY": 32,
                   "palette": 0,
                   "flipX": false,
@@ -47,64 +47,64 @@
           ]
         },
         {
-          "id": "989b5930-e39e-4378-87b1-ed9b5e86e828",
+          "id": "d27dea90-28e5-4e66-a61a-e94f8d74d54f",
           "frames": [
             {
-              "id": "d6cef44d-95dc-4225-aece-1af83d7ecc2c",
+              "id": "ba4a62b1-921c-45cc-b39f-877da891cef1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f44e9cee-0d75-45a3-a614-5420dc6d48ff",
+          "id": "7ccbd248-c639-4c13-b7aa-936949aa911f",
           "frames": [
             {
-              "id": "1c7abf41-03a6-4b4a-874b-0b41c73258b0",
+              "id": "238709e3-def2-4dbd-ba10-63e8199e2c3d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c6020d32-3f12-4eed-b82d-ad470d25f0f3",
+          "id": "42b01be0-f9f7-4896-8b48-00f8270c212e",
           "frames": [
             {
-              "id": "8b94f1ed-4d50-4d9c-803b-567cffd5cbfb",
+              "id": "4549e191-01f8-4920-a7c9-2a019eee68c3",
               "tiles": []
             }
           ]
         },
         {
-          "id": "5bbf2719-33b0-45d4-b2f6-a43e0e1c1448",
+          "id": "f5285afb-e0c6-46ea-9cf4-282ec155f88c",
           "frames": [
             {
-              "id": "82054bac-1db9-4469-816b-93f1a0c4faa9",
+              "id": "5b8bce4d-6b68-4d72-9ceb-9fb4c1a4f03c",
               "tiles": []
             }
           ]
         },
         {
-          "id": "9d2082c8-e450-4872-8c3e-0ba977582487",
+          "id": "d8dc0d5f-8bec-476b-86af-62bcab5b7446",
           "frames": [
             {
-              "id": "de91360e-7414-497a-baf0-de885c8038ec",
+              "id": "b73911f9-6d4a-4c1b-a3dd-58c352ff3c5f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "8e088a72-660d-47c6-a592-b2fcf228298b",
+          "id": "62d77761-2231-4b79-98b9-7b6241cb830c",
           "frames": [
             {
-              "id": "42781e35-7b3f-4533-a6e3-c9ad11ce5ea2",
+              "id": "9f4c327c-24d0-4aca-8d39-7f3e5a7ffe59",
               "tiles": []
             }
           ]
         },
         {
-          "id": "69a9f6f6-8cb6-41a9-a3d5-b6022e695ad8",
+          "id": "08e658c3-2726-4f72-a7ce-7a4ae54d262e",
           "frames": [
             {
-              "id": "20f6ab17-ddc3-4cc1-9b31-0c1d62c15317",
+              "id": "0aa674f4-77b5-47c0-a0f4-bbc3a6b17ab8",
               "tiles": []
             }
           ]
@@ -115,15 +115,15 @@
   "numTiles": 2,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
-  "canvasWidth": 32,
-  "canvasHeight": 32,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
   "boundsX": 0,
   "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "12x16-retro-rpg-topdown-npc-samples.png",
-  "width": 456,
-  "height": 592,
-  "checksum": "3da82d459e0e84d0f2e5b66c5cbda1227d55227d"
+  "filename": "dice -plane.png",
+  "width": 160,
+  "height": 144,
+  "checksum": "0daf420220dd12fe3c19116cd49371c3f6f8c6ba"
 }

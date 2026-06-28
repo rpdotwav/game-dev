@@ -1,0 +1,142 @@
+{
+  "_resourceType": "sprite",
+  "id": "5daacdbc-9d59-438d-adbf-6043a892c315",
+  "name": "dice - equip",
+  "symbol": "sprite_equip",
+  "states": [
+    {
+      "id": "98f2a5db-e52b-4d4d-9d35-2e293a1ea191",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "3e14288a-3893-4c22-8a54-e5791cc55c0b",
+          "frames": [
+            {
+              "id": "580eb024-d1e3-46e3-a7a9-27cd0df91b30",
+              "tiles": [
+                {
+                  "id": "7bbe7cfd-5045-4361-a9a0-598650aa84e9",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 96,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "be815ba8-76c0-499a-869a-ef66d591a374",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 96,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "63b9a785-cb99-46cb-91b4-11aa2420b59c",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 96,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "89a5eb1e-e213-46eb-91ec-e097f8083107",
+          "frames": [
+            {
+              "id": "1875e078-0422-4513-b882-633bc54b0017",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "62cbfabe-8d87-45d2-8d4b-6d81001ec9f5",
+          "frames": [
+            {
+              "id": "c7bd7bc3-b705-4555-a7cb-850f3179ab9c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "24da0d0d-6c44-4112-888a-d4702ba0f0bb",
+          "frames": [
+            {
+              "id": "c15a1874-7bb1-4525-bac1-083b0934ead9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7d3ebce7-78e8-4f0e-a08c-e472c40bf647",
+          "frames": [
+            {
+              "id": "56629856-4a67-45ca-b306-0fe703e6dc95",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c43e137c-9c32-43b8-a807-3a2516412b6b",
+          "frames": [
+            {
+              "id": "c39f249d-08ca-4fc8-bd5c-1d03fb92ff16",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8b280113-46ba-4d7f-b715-645267aed6a1",
+          "frames": [
+            {
+              "id": "c4fc8585-8ca5-4df9-b50e-14e09945c3f3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0624535c-6421-4490-b4e5-0fe19309cdd5",
+          "frames": [
+            {
+              "id": "bec04b81-00e5-4b97-be06-73e27b22bc04",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "dice - equip.png",
+  "width": 160,
+  "height": 144,
+  "checksum": "4e10ad06fba923bcc8f76690e7956c7ec6f0c8a1"
+}

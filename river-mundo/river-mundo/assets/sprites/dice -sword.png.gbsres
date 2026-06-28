@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "4f6ce90b-616a-4b51-a2f6-5b59c8b18233",
+  "name": "dice -sword",
+  "symbol": "sprite_sword",
+  "states": [
+    {
+      "id": "25f8366d-4de6-44b9-9306-4fd3da121368",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "dc549c6d-b141-406a-b9ae-e1c8dc4d16f1",
+          "frames": [
+            {
+              "id": "d129271c-e48e-4f2a-850c-9b48c9ba5efc",
+              "tiles": [
+                {
+                  "id": "dab6f10f-3a20-4084-8f32-e5352050d09f",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 80,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "70e4968f-b114-46dd-b2b6-f39e5e27eb29",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 80,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "552468a3-caab-49a8-9bea-9d8eecf1b34a",
+          "frames": [
+            {
+              "id": "2d5b324e-75cd-4379-9585-8c17ed45b79f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c2a0e3e6-25a9-4095-bcc9-8edf4063ef76",
+          "frames": [
+            {
+              "id": "78d42e1e-ea8f-4c2e-ab9f-e4f76d8a99bf",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4b4555bc-fc93-43ac-a8e8-05df8cb1e985",
+          "frames": [
+            {
+              "id": "f667a3a5-c107-4b69-bad4-008657f59721",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ba763e3e-0d1a-44ef-8778-98efe73af10d",
+          "frames": [
+            {
+              "id": "defc5a0b-a159-40f8-ac53-a6fa2578fa3c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0d3e03d0-aec4-47b9-a5e1-13dc27172cde",
+          "frames": [
+            {
+              "id": "2ed3ee9d-77b9-4458-91f8-132903243b0d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "81ebe1dc-c421-43a0-8eb6-9c7cda633603",
+          "frames": [
+            {
+              "id": "a00af4b4-ef3b-434c-b896-b7210e745b0a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5e4aa101-8279-48f2-93a3-9b3fe85c4f67",
+          "frames": [
+            {
+              "id": "5fabfe6c-c09f-4fe2-8607-1d10a3940fd1",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "dice -sword.png",
+  "width": 160,
+  "height": 144,
+  "checksum": "9bcc1efff0434707f3a8dde983532c91c910d987"
+}

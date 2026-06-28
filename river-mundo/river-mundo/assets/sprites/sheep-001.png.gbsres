@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "848ebcfb-e0ce-472f-8686-c2995aea2d1d",
+  "name": "sheep-001",
+  "symbol": "sprite_sheep_001",
+  "states": [
+    {
+      "id": "498e0001-677a-40b8-90f3-87b715f997ae",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "567d320d-b8a2-4f34-ace3-202362437807",
+          "frames": [
+            {
+              "id": "fced456d-1f54-4702-aa1e-653d7e90a7d6",
+              "tiles": [
+                {
+                  "id": "2dc95021-a056-4b6d-a8e0-868194c81e5a",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "fec47e90-2eef-4414-b6f2-a58ad0346aed",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4daee953-8574-4e18-be7c-e0293d5cb289",
+          "frames": [
+            {
+              "id": "49b5dcdb-443a-42c1-87dd-69b0a874e0e0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f65c176c-4fdf-42ad-838f-d3c6923efee3",
+          "frames": [
+            {
+              "id": "1aa721cf-919a-48fa-8073-cfed296abf21",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4d1be080-48d1-42bc-9148-e261f1edbbef",
+          "frames": [
+            {
+              "id": "eb49e290-3af4-4094-b9da-03edbede518a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1670c692-2902-407f-b37d-e41e6f8f7f8f",
+          "frames": [
+            {
+              "id": "1b3af19e-539d-435a-8c84-29483a9eb654",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "857017b0-e7e6-4d0d-8e7a-0f5845af3fc5",
+          "frames": [
+            {
+              "id": "16d823e5-731e-4092-8b90-1af5a10cf644",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fbd7be04-500b-4444-a39a-d5bc17de470c",
+          "frames": [
+            {
+              "id": "dcb4daa7-5709-42b1-9b18-d57b9ee10512",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "45dac0e5-d782-4f62-890d-1268a70ff0ac",
+          "frames": [
+            {
+              "id": "9bcf3b3d-527e-4c1c-bbd3-900149f980a2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "sheep-001.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "cb14c80b6c99a0bed7068632e3e22b3418b6a8db"
+}

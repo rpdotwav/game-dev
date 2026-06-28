@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "58f76df5-9674-4625-b83c-6cbd709f54dc",
+  "name": "boy-001",
+  "symbol": "sprite_boy_001",
+  "states": [
+    {
+      "id": "4c925eb7-f358-46e9-be88-bef7e471659f",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "abef8f1b-e6f7-47e3-be25-aa1f1b373b06",
+          "frames": [
+            {
+              "id": "6b228ff9-9a39-4960-978e-8c5d27801c5e",
+              "tiles": [
+                {
+                  "id": "8ae983ff-b69b-473c-b381-336c8f7ac86f",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "63c74226-abd7-42de-9e3b-706135e969f1",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "89316ac5-d8e8-4908-ace0-b7c71a66a0e3",
+          "frames": [
+            {
+              "id": "7345c99c-a693-4741-bc67-da17b6151774",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e5568f62-71a3-44bb-bc57-db2cc82d21f7",
+          "frames": [
+            {
+              "id": "64402fb1-b9e9-40c8-979a-0c4c4d12af8c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3598e519-5352-4edf-97da-4011eda7f6ec",
+          "frames": [
+            {
+              "id": "e468c880-2299-4bdf-bb4e-19337638a1dd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b0e050ab-cd6e-4988-8356-fde2267c2a6a",
+          "frames": [
+            {
+              "id": "3190ae6c-5f8c-496c-b931-4902aadf7c3a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "734940d9-5967-4bd2-884d-af3080044c2c",
+          "frames": [
+            {
+              "id": "cf333bf9-872b-41bb-a6a9-cb8767c1b0ad",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "48692301-caad-426e-88df-a9005451fb04",
+          "frames": [
+            {
+              "id": "31e9561e-45ba-47f8-912c-87c616f4ae99",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c60f9a4b-913e-48c3-9db0-7a800ca6691d",
+          "frames": [
+            {
+              "id": "dfdf18c5-8cde-4d66-83df-a5b5c8a12447",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "boy-001.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "ed17d22bb1badb510d730b208ad81b17a89fe69d"
+}

@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "2dee09ba-6521-4918-87b6-b9cb75b08238",
+  "name": "",
+  "prefabId": "",
+  "x": 5,
+  "y": 14,
+  "symbol": "trigger_23",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Welcome to the\nGlynn Nature\nCenter."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "cfd734fb-159a-4b7f-acb1-eb5f760eb7ed"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

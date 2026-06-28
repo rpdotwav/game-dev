@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "b2c2d640-6df9-4a1e-ba03-c1d26c401bcf",
+  "name": "girl-001",
+  "symbol": "sprite_girl_001",
+  "states": [
+    {
+      "id": "7411e354-4f14-4213-948b-121dca3dfc2c",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "d1ce9ecf-acbc-4d0e-9203-d5f2835cbb6d",
+          "frames": [
+            {
+              "id": "0d389dca-5a52-4e02-ad50-08348d1639e0",
+              "tiles": [
+                {
+                  "id": "82d38df3-cfbb-4334-91ed-3ec1f00c182a",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "82960243-4084-4b54-8ca8-28ba6f1fc344",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c178ab2a-9f1e-405d-85ef-998ecfbd8ea8",
+          "frames": [
+            {
+              "id": "a651385d-8a88-4994-b837-eabcdcd42a78",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5b9d90e8-f36d-413b-b90b-81e3cca9f331",
+          "frames": [
+            {
+              "id": "b695ea01-b530-4e1e-b721-3e1dbff441d4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "add48f03-4eaf-43a0-82c3-e3a6bc933b8c",
+          "frames": [
+            {
+              "id": "a12662a2-80e3-4869-8824-4a28194c2da9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "80fa8ca6-9ed0-46b6-9b7f-6aee7a5e5c42",
+          "frames": [
+            {
+              "id": "315ee53e-cb67-45f2-9b77-ed6bb3b386de",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0f9d3269-6031-464f-be34-b0d468764cde",
+          "frames": [
+            {
+              "id": "9aca06fe-cb26-40df-b210-2015ac1d99a6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "40f5ff13-b46e-49df-aebf-3fcf67122fcc",
+          "frames": [
+            {
+              "id": "da1e14ea-cf86-44a7-bd23-3e3cf8f9cb9c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7dbe113c-ff7a-4a64-8f98-26d41de9783e",
+          "frames": [
+            {
+              "id": "0c626344-dcce-4311-bb51-66f67c70bc7e",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "girl-001.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "c33866329686bdf5cbb7afb4e598df81dfd52241"
+}

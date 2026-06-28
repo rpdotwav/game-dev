@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "75b6eb62-74fd-4022-9bf2-8da10c94e6f3",
+  "name": "wolf-001",
+  "symbol": "sprite_wolf_001",
+  "states": [
+    {
+      "id": "1d180d3b-3094-4cb6-9be8-f055a8e433c6",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "2f4caeae-d572-4e9f-8f6d-24a494b9bde2",
+          "frames": [
+            {
+              "id": "019396c8-a0c3-4a74-a7e3-b1df15bf5593",
+              "tiles": [
+                {
+                  "id": "87a0a5f6-22f8-432e-b3f5-200ea22292ea",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "b3fb5526-c289-4564-bebc-df706b1448a3",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7ddfaedb-ad1b-4257-a913-bf4e0cb155d9",
+          "frames": [
+            {
+              "id": "db1150e8-bc14-4554-bfe0-65cc3dcb295e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "46e8d58e-9b55-4d19-b59f-bcf0f2a58720",
+          "frames": [
+            {
+              "id": "6de84882-f142-4c56-9e01-4f040ed11e0f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f0c88ae9-ff4c-4d89-8cef-e0f8c412610b",
+          "frames": [
+            {
+              "id": "da93e0e9-4ad1-4549-b949-b72b5f7fb508",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2a048e6c-a0d8-427a-9dda-a5587e868494",
+          "frames": [
+            {
+              "id": "175794e0-3f76-4de5-8760-3098cf0583e6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "193be905-c2f6-47b3-b145-0f427e61712f",
+          "frames": [
+            {
+              "id": "0047f13c-883b-44e6-9b75-e7937984d53e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b9a6cbc7-1ad9-46cd-a019-a24454776fa5",
+          "frames": [
+            {
+              "id": "faa7192d-3185-44b8-bff6-2296d90a18f4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d4221462-77e3-4c57-a387-3e7af4076147",
+          "frames": [
+            {
+              "id": "7e2dcde4-52b3-423f-a44d-30443d323251",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "wolf-001.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "8888b10b497c1b01e7148067ac124939ef1a03b5"
+}
