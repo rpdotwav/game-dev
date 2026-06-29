@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
-  "id": "39e488ef-360b-4be9-972d-9a358261dce0",
-  "name": "RND d6 socialist die",
+  "id": "cf409af8-35b4-458a-a0e8-ad06b6e9fa6b",
+  "name": "RND card suite",
   "description": "",
   "variables": {
     "V0": {
@@ -16,14 +16,14 @@
       "name": "Actor A"
     }
   },
-  "symbol": "script_3",
+  "symbol": "script_4",
   "script": [
     {
       "command": "EVENT_RNG_SEED",
       "args": {
-        "__collapse": false
+        "__collapse": true
       },
-      "id": "e5069124-7122-4673-883a-e125f94b79d2"
+      "id": "932aab73-4222-4192-bfce-4929914432bc"
     },
     {
       "command": "EVENT_VARIABLE_MATH",
@@ -34,17 +34,17 @@
         "vectorY": "V0",
         "value": "0",
         "minValue": 1,
-        "maxValue": 6,
+        "maxValue": 8,
         "clamp": false,
         "__collapse": true
       },
-      "id": "6abce1ed-cf6d-466e-98c3-7dd05b3cb9dd"
+      "id": "8169ec6f-601b-42ab-b69e-3b386271fb63"
     },
     {
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "V0",
-        "choices": 6,
+        "choices": 8,
         "__collapseCase0": false,
         "__collapseCase1": false,
         "__collapseCase2": false,
@@ -61,7 +61,7 @@
         "__collapseCase13": false,
         "__collapseCase14": false,
         "__collapseCase15": false,
-        "__collapseElse": false,
+        "__collapseElse": true,
         "__collapse": false
       },
       "children": {
@@ -70,18 +70,10 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "0",
-              "spriteSheetId": "e5c6ff78-9146-4388-8685-3e348d58131f",
+              "spriteSheetId": "2c7b6dd6-d5e6-477a-a504-75887e7920f8",
               "__collapse": false
             },
-            "id": "93fae04b-5766-4c23-9c01-a4a467aafd88"
-          },
-          {
-            "command": "EVENT_INC_VALUE",
-            "args": {
-              "variable": "10",
-              "__collapse": false
-            },
-            "id": "4aa8ebd9-0288-4ab5-80b6-b453b3a647f5"
+            "id": "d2203595-4370-4967-9ca1-6aa43af46c0b"
           }
         ],
         "true1": [
@@ -89,16 +81,9 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "0",
-              "spriteSheetId": "84e8b574-d988-4447-9cfe-b3c01ae62ffb"
+              "spriteSheetId": "7605df1d-3ba6-48db-a5c2-751cd8253a78"
             },
-            "id": "84c6e6ec-7f50-4220-9e08-672a4a7a1b0f"
-          },
-          {
-            "command": "EVENT_INC_VALUE",
-            "args": {
-              "variable": "4"
-            },
-            "id": "afb14ab9-cdb3-4a31-a25f-0d86d2553a18"
+            "id": "c74636ac-642c-49e7-abc0-348f5386ed4f"
           }
         ],
         "true2": [
@@ -106,16 +91,9 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "0",
-              "spriteSheetId": "112b4558-b84e-431b-83c5-d32209466fb8"
+              "spriteSheetId": "5e616432-e329-4834-ad5a-215a025c6c8b"
             },
-            "id": "e5bf3fac-418d-40f5-bf85-a383207ab03f"
-          },
-          {
-            "command": "EVENT_INC_VALUE",
-            "args": {
-              "variable": "6"
-            },
-            "id": "73ac2239-e82c-4cfa-8572-3bcb121a35b2"
+            "id": "b0db3b69-1e36-417c-a3cb-f99c668ed5c1"
           }
         ],
         "true3": [
@@ -123,16 +101,9 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "0",
-              "spriteSheetId": "e004baf4-96ea-4ad0-9dab-87034a74381d"
+              "spriteSheetId": "c6ed701a-80f6-4918-8218-c9f29df248b8"
             },
-            "id": "ca9ce034-a2be-41b8-b020-b41b5316dcff"
-          },
-          {
-            "command": "EVENT_INC_VALUE",
-            "args": {
-              "variable": "6"
-            },
-            "id": "fbc851d5-5e49-4d3c-92a9-1091a3cdbcd9"
+            "id": "30248904-75a7-4e96-b72d-c67f4bb52e82"
           }
         ],
         "true4": [
@@ -140,16 +111,9 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "0",
-              "spriteSheetId": "4f6ce90b-616a-4b51-a2f6-5b59c8b18233"
+              "spriteSheetId": "95305078-ec75-4ba6-a66a-f25fef44f5ec"
             },
-            "id": "7ab9cd14-6a49-4d53-abe2-805f11e48fb8"
-          },
-          {
-            "command": "EVENT_INC_VALUE",
-            "args": {
-              "variable": "8"
-            },
-            "id": "5a8b47c2-a77c-459f-8052-31b70f8a2423"
+            "id": "9cefc936-a5a2-4dbd-907e-7f0224b3bd3a"
           }
         ],
         "true5": [
@@ -157,20 +121,31 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "0",
-              "spriteSheetId": "c3eefb51-1b90-486f-9b35-4569005a447a"
+              "spriteSheetId": "4d6b841a-d863-4bdf-b788-d63f16a5dfbc"
             },
-            "id": "716ce3e9-e6cf-4323-9037-f361b9e8a9cb"
-          },
-          {
-            "command": "EVENT_INC_VALUE",
-            "args": {
-              "variable": "8"
-            },
-            "id": "05a89a03-3385-42a5-b97d-fa41777f6542"
+            "id": "2e14b3a2-682e-4ed8-b7c4-568215e87fce"
           }
         ],
-        "true6": [],
-        "true7": [],
+        "true6": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "5fd5b693-06ea-4752-ac1d-8f3317a428b2"
+            },
+            "id": "372b6dfd-6285-484e-bb41-8ca82ed4fd46"
+          }
+        ],
+        "true7": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "46122ba7-b58c-45da-b6f3-72144819cb25"
+            },
+            "id": "f47596f5-3d5b-4ecc-90c0-fff53c707e7e"
+          }
+        ],
         "true8": [],
         "true9": [],
         "true10": [],
@@ -181,7 +156,7 @@
         "true15": [],
         "false": []
       },
-      "id": "4f62329c-89fd-4b2e-b91b-f9c1a621167d"
+      "id": "5edc3f56-dd07-4e12-896d-c01c80d76fb7"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "cff4b879-ee29-43b1-8639-14b59a18a8db",
+  "id": "0d576439-dc4e-4b0a-89a3-9a98c1a904c9",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -15,19 +15,19 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_6",
+  "symbol": "actor_7",
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "39e488ef-360b-4be9-972d-9a358261dce0",
-        "__collapse": true,
+        "__collapse": false,
         "$variable[V0]$": {
           "type": "variable",
           "value": "L0"
         }
       },
-      "id": "7270dab3-9db3-422b-8339-1058a6ddd60d"
+      "id": "5f51eee7-aece-424f-9878-d810e94b8e42"
     }
   ],
   "startScript": [
@@ -35,13 +35,13 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "39e488ef-360b-4be9-972d-9a358261dce0",
-        "__collapse": true,
+        "__collapse": false,
         "$variable[V0]$": {
           "type": "variable",
           "value": "L0"
         }
       },
-      "id": "6aa5036f-34b6-4bfd-bf20-2457f049f4f3"
+      "id": "8aab338c-eb9b-42cd-b86e-1553b259e9b8"
     }
   ],
   "updateScript": [],
@@ -49,7 +49,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 5,
-  "y": 4,
+  "x": 13,
+  "y": 6,
   "_index": 0
 }

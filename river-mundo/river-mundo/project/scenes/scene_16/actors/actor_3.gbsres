@@ -35,7 +35,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "39e488ef-360b-4be9-972d-9a358261dce0",
-        "__collapse": true,
+        "__collapse": false,
         "$variable[V0]$": {
           "type": "variable",
           "value": "L0"
