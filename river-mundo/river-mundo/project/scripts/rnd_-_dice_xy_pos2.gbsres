@@ -1,0 +1,82 @@
+{
+  "_resourceType": "script",
+  "id": "8a15bb91-39c5-419b-b2dc-fc8f43baa02a",
+  "name": "RND - dice XY pos2",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Variable B",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_7",
+  "script": [
+    {
+      "command": "EVENT_RNG_SEED",
+      "args": {
+        "__collapse": true
+      },
+      "id": "3c6ff25d-fb8d-4be0-9e6e-79b94e57d726"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "V0",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 8,
+        "maxValue": 12,
+        "clamp": false,
+        "__collapse": false,
+        "__label": "RND X POS"
+      },
+      "id": "8bf829d0-7465-4358-97f2-0d0ad02687d3"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "V1",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 3,
+        "maxValue": 10,
+        "clamp": false,
+        "__collapse": false,
+        "__label": "RND Y POS"
+      },
+      "id": "67184e2a-039b-4403-be01-b5a918c8394c"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "variable",
+          "value": "V0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V1"
+        },
+        "__collapse": true
+      },
+      "id": "c97f0644-4462-4a4a-bd29-12deb6e2453c"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "_resourceType": "scene",
+  "id": "b1fb8af8-92fa-4c54-a5a0-d2aacd4b8e1a",
+  "_index": 14,
+  "name": "acrcade - dice play",
+  "backgroundId": "f37c3256-43bd-454a-a4f7-dcf1b9ba251e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_16",
+  "x": 336,
+  "y": 1240,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "1d1ee00e-132d-41c2-b629-9aad7a6a0112",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "b0f654e8-2a36-4bbf-a18d-5a938c453519"
+          }
+        ]
+      },
+      "id": "5db52c51-ab3f-48b2-b37d-bdb05d206953"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You win $00$\ncoins!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "4559c179-0021-4e57-97cb-3a5fea451b1d"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a73f6cef-66f3-491a-97d0-2d7c8559c0ac",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "24b3f22c-cf14-49c7-b033-d517c7c5c475"
+          }
+        ]
+      },
+      "id": "48af0d78-7a34-4423-97b2-7d85d0758040"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "die 1 setup"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "10",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true,
+              "__comment": false
+            },
+            "id": "20105997-5086-4059-85b0-448807932609"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "39e488ef-360b-4be9-972d-9a358261dce0",
+              "__collapse": true,
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "10"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "10"
+              },
+              "$actor[0]$": "0d576439-dc4e-4b0a-89a3-9a98c1a904c9"
+            },
+            "id": "18087540-99e4-46b4-9ad7-104779dd4999"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "8181860d-6634-4d55-a422-4ba1d32090d9",
+              "__collapse": true,
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L1"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "L2"
+              },
+              "$actor[0]$": "0d576439-dc4e-4b0a-89a3-9a98c1a904c9"
+            },
+            "id": "a80d9a18-3519-47d8-87b1-aaa0421b2c33"
+          }
+        ]
+      },
+      "id": "41fea8eb-ff5c-476b-af3f-4534cda8bde1"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "die 2 setup"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "11",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true,
+              "__comment": false
+            },
+            "id": "3cd2d15e-899f-47a2-92cf-3a95cb50c692"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "39e488ef-360b-4be9-972d-9a358261dce0",
+              "__collapse": false,
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "11"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "11"
+              },
+              "$actor[0]$": "cff4b879-ee29-43b1-8639-14b59a18a8db"
+            },
+            "id": "fc3270cd-32db-413f-b795-9ac68b95d66f"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "8a15bb91-39c5-419b-b2dc-fc8f43baa02a",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L1"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "L2"
+              },
+              "__collapse": false,
+              "$actor[0]$": "cff4b879-ee29-43b1-8639-14b59a18a8db"
+            },
+            "id": "5ffedb4d-7a04-41aa-9572-060a4eafd500"
+          }
+        ]
+      },
+      "id": "5c57f75e-3b8d-4930-9388-ac8e1474a14e"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "die 3 setup"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "12",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true,
+              "__comment": false
+            },
+            "id": "94fdd72d-6a6c-41e3-8684-7d76ff89f08b"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "39e488ef-360b-4be9-972d-9a358261dce0",
+              "__collapse": false,
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "12"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "12"
+              },
+              "$actor[0]$": "5abf4b56-6dfb-4123-8f39-1d7fa375d6d7"
+            },
+            "id": "9dd05eaf-39e9-43ab-8d1a-92242cd15d6f"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "bb88ff2c-0d79-43de-a5ff-46f936bf9694",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L1"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "L2"
+              },
+              "__collapse": false,
+              "$actor[0]$": "5abf4b56-6dfb-4123-8f39-1d7fa375d6d7"
+            },
+            "id": "1c02c40a-33fe-4ee7-a65f-120f73cf3bef"
+          }
+        ]
+      },
+      "id": "d423cfc1-a3dd-4673-a19e-f90b004ae940"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1d5af344-67a5-475a-95af-aab58630b3bc",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "10"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "11"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "12"
+        },
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "22c8b65f-1786-48b7-98dd-281b16272d0f"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "2cac65e2-3a3b-459f-9afe-d7f43615ffc1"
+}

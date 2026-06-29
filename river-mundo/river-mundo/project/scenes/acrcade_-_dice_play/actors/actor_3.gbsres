@@ -1,0 +1,179 @@
+{
+  "_resourceType": "actor",
+  "id": "5abf4b56-6dfb-4123-8f39-1d7fa375d6d7",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "5daacdbc-9d59-438d-adbf-6043a892c315",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_8",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "39e488ef-360b-4be9-972d-9a358261dce0",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "12"
+        },
+        "__comment": true
+      },
+      "id": "c8c06c63-3556-4b73-8752-667722dcddd9"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "8181860d-6634-4d55-a422-4ba1d32090d9",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L4"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "L5"
+        },
+        "__comment": true
+      },
+      "id": "3168e5ae-844e-4715-b439-292d0e185cea"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "39e488ef-360b-4be9-972d-9a358261dce0",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "12"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "12"
+        },
+        "__comment": true
+      },
+      "id": "5819488e-07be-43d8-9745-7bdd407e2d57"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bb88ff2c-0d79-43de-a5ff-46f936bf9694",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L1"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "L2"
+        },
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "f108fdeb-3866-4e9b-917c-a2695e8d75a1"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1d5af344-67a5-475a-95af-aab58630b3bc",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "12"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "11"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "10"
+        },
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "83dcb40a-3e67-4cd6-8ea1-63cc11080c39"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "39e488ef-360b-4be9-972d-9a358261dce0",
+              "__collapse": true,
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "12"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "12"
+              }
+            },
+            "id": "baeb47fa-0e4a-48db-9623-bc797f30b1ac"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "bb88ff2c-0d79-43de-a5ff-46f936bf9694",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L1"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "L2"
+              },
+              "__collapse": true
+            },
+            "id": "f80a8efb-5a3b-4983-bfcc-abec8fd28924"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "1d5af344-67a5-475a-95af-aab58630b3bc",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "12"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "11"
+              },
+              "$variable[V2]$": {
+                "type": "variable",
+                "value": "10"
+              },
+              "__collapse": true
+            },
+            "id": "cca2366c-dcd9-407e-9db4-06fb4b9f0be7"
+          }
+        ]
+      },
+      "id": "97952ff1-cd7a-4a13-86d4-090d903584de"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 6,
+  "y": 8,
+  "_index": 2
+}

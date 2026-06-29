@@ -1,0 +1,149 @@
+{
+  "_resourceType": "script",
+  "id": "39e488ef-360b-4be9-972d-9a358261dce0",
+  "name": "RND d6 faction suit",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_RNG_SEED",
+      "args": {
+        "__collapse": true
+      },
+      "id": "e5069124-7122-4673-883a-e125f94b79d2"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "V0",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 1,
+        "maxValue": 6,
+        "clamp": false,
+        "__collapse": true
+      },
+      "id": "6abce1ed-cf6d-466e-98c3-7dd05b3cb9dd"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "V0",
+        "choices": 6,
+        "__collapseCase0": false,
+        "__collapseCase1": false,
+        "__collapseCase2": false,
+        "__collapseCase3": false,
+        "__collapseCase4": false,
+        "__collapseCase5": false,
+        "__collapseCase6": false,
+        "__collapseCase7": false,
+        "__collapseCase8": false,
+        "__collapseCase9": false,
+        "__collapseCase10": false,
+        "__collapseCase11": false,
+        "__collapseCase12": false,
+        "__collapseCase13": false,
+        "__collapseCase14": false,
+        "__collapseCase15": false,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "e5c6ff78-9146-4388-8685-3e348d58131f",
+              "__collapse": false
+            },
+            "id": "93fae04b-5766-4c23-9c01-a4a467aafd88"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "84e8b574-d988-4447-9cfe-b3c01ae62ffb",
+              "__collapse": false
+            },
+            "id": "84c6e6ec-7f50-4220-9e08-672a4a7a1b0f"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "112b4558-b84e-431b-83c5-d32209466fb8",
+              "__collapse": false
+            },
+            "id": "e5bf3fac-418d-40f5-bf85-a383207ab03f"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "e004baf4-96ea-4ad0-9dab-87034a74381d",
+              "__collapse": true
+            },
+            "id": "ca9ce034-a2be-41b8-b020-b41b5316dcff"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "4f6ce90b-616a-4b51-a2f6-5b59c8b18233",
+              "__collapse": true
+            },
+            "id": "7ab9cd14-6a49-4d53-abe2-805f11e48fb8"
+          }
+        ],
+        "true5": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "c3eefb51-1b90-486f-9b35-4569005a447a",
+              "__collapse": true
+            },
+            "id": "716ce3e9-e6cf-4323-9037-f361b9e8a9cb"
+          }
+        ],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "4f62329c-89fd-4b2e-b91b-f9c1a621167d"
+    }
+  ]
+}

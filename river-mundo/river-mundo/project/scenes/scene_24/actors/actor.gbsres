@@ -1,0 +1,94 @@
+{
+  "_resourceType": "actor",
+  "id": "cec9bc5d-034d-4583-9115-d103604b5d3a",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ed8b2138-4b11-42da-98a7-d3ca70bd1d87",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_27",
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "69441793-79bd-4d4e-8191-b6572929a5f1",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "d04f114d-cbe0-4e7f-90a3-e3c14d69903a"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You found the \ntrident!",
+          "Humans make folly\nwhenever they",
+          "believe anything\nthey find in the",
+          "water doesn't\nbelong to someone."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f064d4d8-a636-4a1b-b806-b0ba7c0c043c"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "92cab304-d1bc-4745-8cd8-1768d3d961a6",
+        "x": {
+          "type": "number",
+          "value": 11
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "48d87138-4e2e-4b4c-b96d-318f62b90c45"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 13,
+  "y": 14,
+  "_index": 0
+}

@@ -1,0 +1,91 @@
+{
+  "_resourceType": "scene",
+  "id": "5f39aa72-2d0b-4e50-b2ac-ba1edec8de3a",
+  "_index": 16,
+  "name": "arcade - dice title",
+  "backgroundId": "1df5f17e-a8e9-4bb9-a8ef-be79f177cc7a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_18",
+  "x": 336,
+  "y": 888,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "1d1ee00e-132d-41c2-b629-9aad7a6a0112",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "18db4d3d-4b25-44f2-bdec-7e646499601b"
+          }
+        ]
+      },
+      "id": "eb4e4e1c-fc09-47c8-b684-d6ed28f78747"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a73f6cef-66f3-491a-97d0-2d7c8559c0ac",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "6bf40563-4133-4431-a5db-ee0a5c1cd4d6"
+          }
+        ]
+      },
+      "id": "319b7696-419d-4ec3-90d7-1a852bff85a2"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "2cac65e2-3a3b-459f-9afe-d7f43615ffc1"
+}

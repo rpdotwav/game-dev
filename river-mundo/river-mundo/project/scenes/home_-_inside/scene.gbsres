@@ -1,0 +1,50 @@
+{
+  "_resourceType": "scene",
+  "id": "dfa3e811-9707-498b-b8fc-4b86416fb0c8",
+  "_index": 7,
+  "name": "home - inside",
+  "backgroundId": "126daf76-499a-4718-a1e6-3a75dc137a45",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f57+005+0ff+005+0ff+005+0fc+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0fa+008+0fc+008+0fe+004+0f1c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 160,
+  "y": 704,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Phew! Just a\ndream I guess."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9af07b44-8e0c-4d4e-aeb0-de51baaca98c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "48bcb14c-05b7-4df7-8157-32e0900b4ec2"
+}

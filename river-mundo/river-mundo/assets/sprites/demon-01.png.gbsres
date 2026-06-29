@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "de02d743-800c-4ed2-8ac6-5c1d4187339d",
+  "name": "demon-01",
+  "symbol": "sprite_demon_01",
+  "states": [
+    {
+      "id": "44a91d6c-6109-42b1-a099-1ca49d50acb2",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "823b76e8-6f0c-4117-8e49-83fb9799ab7a",
+          "frames": [
+            {
+              "id": "7e96dd29-ec41-49cf-a571-9b43f6a284e1",
+              "tiles": [
+                {
+                  "id": "ed20325b-6558-4147-b4f8-db3663ac9089",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "e2f38ee6-4ac9-4e83-9be4-0f74fbcf75a1",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fcefa415-a60d-470c-b020-e8945c28c27c",
+          "frames": [
+            {
+              "id": "a4070bce-4e21-4904-899b-848f811b76c5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9e75fe25-07d6-430b-ab08-259bbc01aaf5",
+          "frames": [
+            {
+              "id": "f4f8a70c-c0f8-4d3d-a8eb-8e96835d1646",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "101a668c-e5e7-415e-8a03-0c0766f28847",
+          "frames": [
+            {
+              "id": "1cf191dc-f66e-4970-8cfa-021bd83398b6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c8cc4f09-d61b-47e2-8e5a-9d52278787c2",
+          "frames": [
+            {
+              "id": "c4a66940-fbf8-45a6-81db-e92c8a21102e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4951ba44-a15d-402a-9299-07cc56726f76",
+          "frames": [
+            {
+              "id": "57104091-022f-41ee-9d9d-a4921e97db13",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bb8a8dbc-76d7-455e-b404-6d161572917c",
+          "frames": [
+            {
+              "id": "3266f78a-589a-4b91-90af-3d8aae17d7b1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8c75c58c-e4c3-48a1-8ee1-8c007031c846",
+          "frames": [
+            {
+              "id": "ace927f3-2845-4941-9b0e-df564e9a4c41",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "demon-01.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "7ab8699e00b67940fb080fa27a4c57c466cbb53d"
+}

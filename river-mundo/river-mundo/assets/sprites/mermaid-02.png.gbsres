@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "179f209c-34f7-48f0-8bf7-d74d56b5e3bc",
+  "name": "mermaid-02",
+  "symbol": "sprite_mermaid_02",
+  "states": [
+    {
+      "id": "c860fbb4-e5d3-44ac-a749-9297bbb6eb13",
+      "name": "",
+      "animationType": "horizontal",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "bc892d44-c198-4844-99f8-42d0da0df0d2",
+          "frames": [
+            {
+              "id": "1d15bc4c-a832-4b29-8440-bdfc0fdc6c3c",
+              "tiles": [
+                {
+                  "id": "7338fe38-a674-491b-a458-5033d426e9e2",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "ca4abe0e-2c9d-43c0-bff5-ac0c32480466",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2c21eb8f-d06c-489a-98f8-24925020b4fc",
+          "frames": [
+            {
+              "id": "d80299ce-ae73-4eac-a46c-821660233e7f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "878f934c-902d-49e2-a1dd-62dca8246ef4",
+          "frames": [
+            {
+              "id": "d3d7341f-c072-4b98-9abc-22ec065fccbd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dad5ce07-2ab4-4488-a7a8-40e41b7e2651",
+          "frames": [
+            {
+              "id": "c05c009e-6933-4c21-a972-18265f280f12",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e53c785f-76a2-4a58-9ad5-b92485e01e73",
+          "frames": [
+            {
+              "id": "c87d65b1-21c8-4c8e-a115-3427a11c52ce",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "74425cb2-7ac4-43f3-be13-48c35661a0f6",
+          "frames": [
+            {
+              "id": "d281b77e-c3c4-4971-85b2-81bf6f248371",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b7a231e2-dcaf-4aaf-b6d0-4d9fa8cecd58",
+          "frames": [
+            {
+              "id": "bb8b7e3d-b7ef-465d-ba5a-38dd1cf8059c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c1246305-a8e5-4036-8daa-54eaf4c3f489",
+          "frames": [
+            {
+              "id": "ab0268c7-db3f-492b-b734-6f11ac8b1d91",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "mermaid-02.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "096899ff94b548faf2fed05b4b677525656ed902"
+}
