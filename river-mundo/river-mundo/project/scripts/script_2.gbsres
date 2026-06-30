@@ -10,14 +10,14 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "f2cf8b9b-31a2-4595-b395-95b4252f2883",
+        "sceneId": "c00cd06c-7697-4dcd-a616-f89101695006",
         "x": {
           "type": "number",
-          "value": 2
+          "value": 17
         },
         "y": {
           "type": "number",
-          "value": 15
+          "value": 1
         },
         "direction": "",
         "fadeSpeed": "2"
