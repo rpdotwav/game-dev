@@ -7,17 +7,102 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "type": "PLATFORM",
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00f0+0f78+",
   "autoFadeSpeed": 1,
   "symbol": "scene_27",
   "x": 704,
   "y": 912,
-  "script": [],
-  "playerHit1Script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 10
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "72f65f37-cc69-4de7-becb-1ad861d89038",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "7b5c71dd-321c-4fce-b926-4b37d48edd88"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You managed to\navoud $01$ rolls!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "22176930-62b1-45d0-9bb5-958ca22491b0"
+          }
+        ],
+        "false": []
+      },
+      "id": "cb6b9031-b378-4ca5-93e9-c73705972a34"
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "aee940eb-c26d-452c-b9b9-7251cd3ff7cd",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "fafc062d-1200-4993-b80b-03cb248c982e"
+    }
+  ],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "f11b2f2f-01c7-4d33-9928-144800645ccc"

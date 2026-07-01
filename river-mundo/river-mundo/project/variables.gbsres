@@ -7,6 +7,16 @@
       "symbol": "var_coin"
     },
     {
+      "id": "1",
+      "name": "bowl-score",
+      "symbol": "var_bowl_score"
+    },
+    {
+      "id": "2",
+      "name": "bowl-pin-count",
+      "symbol": "var_bowl_pin_count"
+    },
+    {
       "id": "10",
       "name": "die v1",
       "symbol": "var_die_v1"

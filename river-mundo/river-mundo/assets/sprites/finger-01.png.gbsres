@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "432df588-682d-4b71-93cc-d67a37db464a",
+  "name": "finger-01",
+  "symbol": "sprite_finger_01",
+  "states": [
+    {
+      "id": "d29bfade-0d05-466a-9ef1-bec9b1c5d545",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "a2c25b0f-fe2f-4e57-9908-15d72b96bee1",
+          "frames": [
+            {
+              "id": "e5ff04b2-fd2d-4679-9fe0-e970222691a8",
+              "tiles": [
+                {
+                  "id": "fe60391d-d029-4095-86ed-3de7c185d651",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "686a4b5f-6814-4482-912f-121de92ef01d",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "00e81af8-9c8b-4b3a-a7b4-5c269ed5ef1d",
+          "frames": [
+            {
+              "id": "cfbeef12-885d-4ccd-9273-49016536fbb4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e21ce755-6ce1-4f94-8513-d0fa47c61340",
+          "frames": [
+            {
+              "id": "e53222af-3996-4685-9420-e00900e0a162",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "40b1f633-7c57-4628-abc6-d9c604717733",
+          "frames": [
+            {
+              "id": "341f35e1-a56d-4645-8657-20bc75190c7b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "885d81d9-c964-4aa6-bb11-c836c9f91cb5",
+          "frames": [
+            {
+              "id": "6da6ea2e-f349-4a01-a43c-48fa97bd5281",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "58b9fe52-a6ba-4d27-bb98-b9726f023e08",
+          "frames": [
+            {
+              "id": "12d174ef-9316-4bda-9085-3bbb8fc22876",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3cb87376-87c5-4309-8be4-d5dd2200487a",
+          "frames": [
+            {
+              "id": "ddcc0949-2a3e-4a1a-8345-08e967ee2408",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b958d7c2-7b3b-410e-bb87-93cf877b8eff",
+          "frames": [
+            {
+              "id": "422ba923-4d47-4981-8615-af47268294a6",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "finger-01.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "77e8491ea2023297c4b5b11ac0d869ffd2188506"
+}

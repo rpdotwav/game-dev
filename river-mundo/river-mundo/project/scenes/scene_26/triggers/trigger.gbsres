@@ -1,0 +1,60 @@
+{
+  "_resourceType": "trigger",
+  "id": "3f647034-5543-463d-b4d4-a9916466d51a",
+  "name": "",
+  "prefabId": "",
+  "x": 8,
+  "y": 14,
+  "symbol": "trigger_31",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The bowling ball\nscreamed but no\none could hear."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "acc02cf1-3d43-4448-ac6d-c335ab554a3b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "6a48c2ac-ed2c-464a-a5fa-4fdee88635bf",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "443a88cf-bd31-4840-8425-266441942b20"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

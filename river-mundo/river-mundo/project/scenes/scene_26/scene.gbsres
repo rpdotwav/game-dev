@@ -3,7 +3,7 @@
   "id": "72f65f37-cc69-4de7-becb-1ad861d89038",
   "_index": 25,
   "name": "Scene 26",
-  "backgroundId": "9b02e98d-e245-4539-9be3-e0a2527550f3",
+  "backgroundId": "76b01719-d2e9-4acc-8e3a-e2c3c1360ef3",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -11,46 +11,221 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "0f2f+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fd+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fe+004+0f8+",
   "autoFadeSpeed": 1,
   "symbol": "scene_26",
   "x": 704,
-  "y": 712,
+  "y": 1272,
   "script": [
     {
-      "command": "EVENT_SET_TIMER_SCRIPT",
+      "command": "EVENT_TEXT",
       "args": {
-        "timer": 1,
-        "duration": 1.5,
-        "frames": 30,
-        "__scriptTabs": "end"
+        "text": [
+          "You avoided $01$\nstrikes!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "02bfe19b-cea3-459e-9c40-9f1fc5511328"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 8
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
-        "script": [
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "0",
+              "__collapse": true
+            },
+            "id": "2bff8396-c8cd-4010-8714-a006734bd405"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "0",
+              "__collapse": true
+            },
+            "id": "d11e85f8-01fc-4174-8b53-3deda7bba6e9"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You win 2 coins!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "9f684f15-45ec-4e7f-bd37-039b49946f52"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "0"
+                  },
+                  "id": "c6b68424-d0b8-4a0b-93dc-cbeb05a663d2"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "You won a coin!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "bc764cf8-7855-4bc4-8bd5-bfa75ca11ea5"
+                }
+              ],
+              "false": []
+            },
+            "id": "fa66daa6-3abc-4575-ae78-691b2dc87d35"
+          }
+        ]
+      },
+      "id": "111f474e-00e8-40e5-9564-36de3ac2747b"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "abe23a65-fce4-4693-916c-93695548f43c"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "350f53f7-4c39-4806-9d24-9bc2730d3193"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "6a48c2ac-ed2c-464a-a5fa-4fdee88635bf",
+              "sceneId": "0cf3a1eb-660d-48a2-904b-99d0d15d904e",
               "x": {
                 "type": "number",
-                "value": 15
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 11
+                "value": 16
               },
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "82a9362d-ac3e-440a-b010-0f75fcc180b9"
+            "id": "6c7e7c13-44a2-4080-8bb3-b330ee449144"
           }
         ]
       },
-      "id": "c7bd245d-76eb-4b40-a9b4-8e53041c965f"
+      "id": "fadf5cb0-2797-4c5c-bcc7-c58de733e3c3"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "f11b2f2f-01c7-4d33-9928-144800645ccc"
+  "playerSpriteSheetId": "1d9b6e86-ff07-4d68-9715-16431d5235b5",
+  "autoFadeEventCollapse": true
 }

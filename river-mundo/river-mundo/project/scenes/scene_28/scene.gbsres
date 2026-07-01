@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "a76cbe54-21e4-4115-8c04-e4706615cd9b",
-  "_index": 24,
-  "name": "Scene 25",
-  "backgroundId": "4e74b422-fb26-481b-a196-104caaf27d8d",
+  "id": "aee940eb-c26d-452c-b9b9-7251cd3ff7cd",
+  "_index": 27,
+  "name": "Scene 28",
+  "backgroundId": "dd65a9fd-dbd9-40e7-8c9f-3fff90430d8d",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -11,47 +11,46 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00168+",
+  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_25",
-  "x": 528,
-  "y": 1448,
+  "symbol": "scene_28",
+  "x": 704,
+  "y": 1088,
   "script": [
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
-        "duration": 10,
+        "duration": 1,
         "frames": 30,
-        "__scriptTabs": "end",
-        "__collapse": false
+        "__scriptTabs": "end"
       },
       "children": {
         "script": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "b2916043-93ba-45ec-a4bb-8f8a649b1ea1",
+              "sceneId": "6a48c2ac-ed2c-464a-a5fa-4fdee88635bf",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 15
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 11
               },
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "439d0284-e7bb-4420-8ca9-756b9c67a567"
+            "id": "af84cf7e-c306-4ccd-84d7-55a828702c5d"
           }
         ]
       },
-      "id": "f8270835-471b-4357-a952-b353ff2ef8e0"
+      "id": "4815d9be-1d73-4736-9e7a-36d58b1b2a3b"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "f606bb2c-ac9c-484d-bc8f-2f31ee1c2772"
+  "playerSpriteSheetId": "2cac65e2-3a3b-459f-9afe-d7f43615ffc1"
 }
