@@ -112,6 +112,5 @@
   "romFilename": "",
   "defaultSceneTypeId": "TOPDOWN",
   "disabledSceneTypeIds": [],
-  "autoTileFlipEnabled": true,
-  "webTemplate": ""
+  "autoTileFlipEnabled": true
 }

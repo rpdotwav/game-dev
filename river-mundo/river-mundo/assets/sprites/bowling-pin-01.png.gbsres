@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "f11b2f2f-01c7-4d33-9928-144800645ccc",
+  "name": "bowling-pin-01",
+  "symbol": "sprite_bowling_pin_01",
+  "states": [
+    {
+      "id": "3af0a212-9bc4-4a1e-aeef-80e4f0721d58",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "be79b35a-10ca-4dc8-940c-03900a12573c",
+          "frames": [
+            {
+              "id": "44db03bd-ed38-4cbc-a91f-3388fe65c22a",
+              "tiles": [
+                {
+                  "id": "e8b53bf2-66e5-45db-b4bf-87a09e787213",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "439c179c-7a1f-4d4c-b763-fe38d1557ba8",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ba8fc0ae-260e-4486-88b9-368cddefeeba",
+          "frames": [
+            {
+              "id": "46f9445b-2bae-4da1-8e5a-98bb37873c5a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1b6b96d4-9b6c-4d9b-8d8b-a734dc3189bd",
+          "frames": [
+            {
+              "id": "6a995600-887b-465c-8b32-6bc41927624a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d9227353-af98-4232-87e4-19f7ce9686a2",
+          "frames": [
+            {
+              "id": "7669f530-d444-4233-a624-5fdfc8db1551",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ef7ce49f-503b-4d25-b51f-0f6232e133fb",
+          "frames": [
+            {
+              "id": "b6572eab-daf1-423d-8cab-e2f089dfd7c1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cdf7a158-acd0-4caa-9207-d94cf096f76c",
+          "frames": [
+            {
+              "id": "07adf939-c985-4030-8a22-92a381a5da9d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3ecee4e4-2cf1-4cfb-b703-63578c0fc7cd",
+          "frames": [
+            {
+              "id": "a1ee3918-146b-44e6-9b31-93857852e8bf",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "78695449-e72f-48f7-819c-5845234ff149",
+          "frames": [
+            {
+              "id": "5e42bdac-141e-422b-bfe3-91b991d1d10d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "bowling-pin-01.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "bc118cfdfaa7f380f88fa4ab435eca43ae8698b5"
+}
